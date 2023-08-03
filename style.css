@@ -1,0 +1,153 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+.row {
+    display: flex;
+}
+.logo h3{
+    letter-spacing: 0.12cm;
+    margin-left: 15px;
+}
+header {
+    margin-top: 0.5%;
+    background-color: rgba(64, 65, 70, 1);
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav {
+    margin-left: auto;
+}
+
+header .nav ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px 20px;
+}
+
+header .nav li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.body p {
+    display: flex;
+    justify-content: center;
+    font-size: 30px; 
+    color: rgba(64, 65, 70, 1);
+}
+.body .container h1 {
+    font-size: 100px;
+    color: rgba(64, 65, 70, 1);
+}
+.dot {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+.body .container img {
+    height: 200px;
+    display: block; /* Ensures the image is centered properly */
+    margin: 0 auto; /* Centers the image horizontally within the container */
+}
+.secPage {
+    background-color: rgba(244, 244, 244, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secPage h1 {
+    /* Optional styles for the heading */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.secPage p {
+    width: 80%;
+    /* Optional styles for the paragraph */
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+}
+.thirdPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdPage h1 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.thirdPage .container img {
+    height: 200px;
+}
+.thirdPage .container ul {
+    display: flex;
+    justify-content: center;
+}
+.thirdPage .container li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    float: left; 
+}
+.thirdPage p {
+    text-align: center;
+    margin: 20px;
+}
+.form   {
+    background-color: rgba(244, 244, 244, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input {
+    width: 500px;
+    height: 30px;
+    margin: 20px 0;
+    outline: none;
+}
+
+.footer {
+    background-color: rgba(124, 125, 130, 1);
+    color: white;
+    padding: 20px;
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer ul a{
+    font-size: 13px;
+}
+.footer ul li {
+    padding-bottom: 20px;
+    list-style: none;
+}
